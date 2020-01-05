@@ -1,0 +1,267 @@
+/* font-family: 'Saira Semi Condensed', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    max-width: 1440px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #555;
+    /* border-radius: 20px; */
+    padding: 0 20px;
+
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20%;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    background-color: #222;
+
+}
+
+header {
+    position: relative;
+    max-width: 1440px;
+    background-image: url(../img/bolt-877370_1920.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+header h1 {
+    position: absolute;
+    font-size: 4.5rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    bottom: 70px;
+}
+
+main {
+    max-width: 1440px;
+    margin: 5vh auto;
+    font-size: 0;
+}
+
+main section {
+    margin: 5vh auto;
+}
+
+main div#about {
+    max-width: 1440px;
+    text-align: center;
+    margin: 2vh auto;
+}
+
+main p {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 33.3%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+main div#production {
+    height: 300px;
+    background-image: url(../img/prod.jpg);
+    margin: 10px 15px;
+}
+
+main div#sales {
+    height: 300px;
+    background-image: url(../img/sale.jpg);
+    margin: 10px 15px;
+}
+
+main div#services {
+    height: 300px;
+    background-image: url(../img/service.jpg);
+    margin: 10px 15px;
+}
+
+main h1 {
+    font-size: 4rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #555;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #555;
+}
+
+main div.feature2 {
+    width: 50%;
+    display: inline-block;
+}
+
+main div#iso {
+    height: 800px;
+    background-image: url(../img/Certyfikat_UDT.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main div#ped {
+    height: 800px;
+    background-image: url(../img/Certyfikat_plen_PED1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main div.feature3 {
+    width: 25%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+main div#item1 {
+    height: 300px;
+    background-image: url(..//img/g001.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+main div#item2 {
+    height: 300px;
+    background-image: url(..//img/g002.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+main div#item3 {
+    height: 300px;
+    background-image: url(..//img/g003.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+main div#item4 {
+    height: 300px;
+    background-image: url(..//img/g004.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+main div#item5 {
+    height: 300px;
+    background-image: url(..//img/g005.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+main div#item6 {
+    height: 300px;
+    background-image: url(..//img/g006.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+main div#item7 {
+    height: 300px;
+    background-image: url(..//img/g007.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+main div#item8 {
+    height: 300px;
+    background-image: url(..//img/g008.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+
+/* main div.contact p {
+    margin: 0 auto;
+    font-size: 2rem;
+
+} */
+
+
+#add p {
+    line-height: 10px;
+    padding-left: 150px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+#tel p {
+    line-height: 10px;
+    padding-left: 150px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
